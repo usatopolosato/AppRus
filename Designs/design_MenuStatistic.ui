@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MenuStatistic</class>
+ <widget class="QWidget" name="MenuStatistic">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>731</width>
+    <height>637</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Меню статистика</string>
+  </property>
+  <widget class="QFrame" name="content">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>0</y>
+     <width>671</width>
+     <height>621</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame {
+	background-color: white;
+	border-radius: 20px;
+}
+QPushButton {
+	border-radius: 30px;
+	background-color: rgb(157, 175, 255);
+	color: white;
+	font: 14pt &quot;Shruti&quot;;
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="statisticButton1">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>130</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Задание 1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="statisticButton5">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>140</y>
+      <width>130</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Задание 5</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="statisticButton13">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>300</y>
+      <width>130</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Задание 13</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="statisticButton17">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>380</y>
+      <width>130</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Задание 17</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="statisticButton21">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>460</y>
+      <width>130</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Задание 21</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="statisticButton9">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>220</y>
+      <width>130</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Задание 9</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="statisticButton2">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>60</y>
+      <width>130</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Задание 2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="statisticButton3">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>60</y>
+      <width>130</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Задание 3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="statisticButton6">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>140</y>
+      <width>130</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Задание 6</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="statisticButton4">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>60</y>
+      <width>130</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Задание 4</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="statisticButton7">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>140</y>
+      <width>130</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Задание 7</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="statisticButton8">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>140</y>
+      <width>130</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Задание 8</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="statisticButton10">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>220</y>
+      <width>130</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Задание 10</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="statisticButton11">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>220</y>
+      <width>130</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Задание 11</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="statisticButton12">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>220</y>
+      <width>130</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Задание 12</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="statisticButton14">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>300</y>
+      <width>130</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Задание 14</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="statisticButton15">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>300</y>
+      <width>130</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Задание 15</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="statisticButton16">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>300</y>
+      <width>130</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Задание 16</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="statisticButton18">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>380</y>
+      <width>130</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Задание 18</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="statisticButton19">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>380</y>
+      <width>130</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Задание 19</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="statisticButton20">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>380</y>
+      <width>130</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Задание 20</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="statisticButton22">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>460</y>
+      <width>130</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Задание 22</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="statisticButton23">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>460</y>
+      <width>130</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Задание 23</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="statisticButton24">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>460</y>
+      <width>130</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Задание 24</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="statisticButton25">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>540</y>
+      <width>130</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Задание 25</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="statisticButton26">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>540</y>
+      <width>130</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Задание 26</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>0</y>
+      <width>61</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-radius: 30px;
+	background-color: none;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icon/exit_to_app.png</normaloff>icon/exit_to_app.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>64</width>
+      <height>64</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>6</x>
+      <y>10</y>
+      <width>661</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Статистика</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exitButton">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>0</y>
+      <width>61</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-radius: 30px;
+	background-color: none;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icon/exit_to_app.png</normaloff>../icon/exit_to_app.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>64</width>
+      <height>64</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
