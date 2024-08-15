@@ -3,7 +3,7 @@ from PyQt5.QtWidgets import QWidget, QApplication, QGraphicsScene, QGraphicsElli
 from PyQt5 import QtCore
 from PyQt5.QtGui import QColor
 from Designs.design_MainWindow import *
-from py.queries_db import *
+from pyp.queries_db import *
 from Designs.design_diagram import Ui_DiagramWidget
 
 

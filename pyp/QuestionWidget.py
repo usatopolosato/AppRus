@@ -3,8 +3,8 @@ from PyQt5.QtWidgets import QMainWindow, QApplication, QSpinBox, QLabel, QTableW
 from PyQt5.QtWidgets import QMessageBox
 from PyQt5 import QtCore, QtGui
 from Designs.design_question import *
-from py.queries_db import make_up_exem
-from py.queries_db import html_quastion
+from pyp.queries_db import make_up_exem
+from pyp.queries_db import html_quastion
 
 
 class Question(QMainWindow, Ui_questionWidget):

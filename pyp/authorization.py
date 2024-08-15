@@ -2,9 +2,9 @@ import sys
 from Designs.design_authorization import Ui_Authorization
 from PyQt5.QtWidgets import QWidget, QLineEdit, QInputDialog
 from PyQt5 import QtCore, QtGui
-from py.queries_db import *
-from py.add_db import *
-from py.check_mail import *
+from pyp.queries_db import *
+from pyp.add_db import *
+from pyp.check_mail import *
 
 
 class Authorization(QWidget, Ui_Authorization):

@@ -2,10 +2,10 @@ import sys
 from PyQt5.QtWidgets import QMainWindow, QApplication
 from PyQt5 import QtCore, QtGui
 from Designs.design_MainWindow import *
-from py.queries_db import *
-from py.MenuTheoryWidget import MenuTheory
-from py.MenuQuestion import MenuQuestion
-from py.MenuStatistic import MenuStatistic
+from pyp.queries_db import *
+from pyp.MenuTheoryWidget import MenuTheory
+from pyp.MenuQuestion import MenuQuestion
+from pyp.MenuStatistic import MenuStatistic
 
 
 class MainWindow(QMainWindow, Ui_MainWindow):

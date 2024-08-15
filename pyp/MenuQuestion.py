@@ -3,9 +3,9 @@ from PyQt5.QtWidgets import QMainWindow, QApplication, QSpinBox, QLabel, QTableW
 from PyQt5.QtWidgets import QHeaderView
 from PyQt5 import QtCore, QtGui
 from Designs.design_MenuQuestion import *
-from py.queries_db import make_up_exem, html_quastion, number_quastion, answer_question
-from py.QuestionWidget import *
-from py.ResultWidget import *
+from pyp.queries_db import make_up_exem, html_quastion, number_quastion, answer_question
+from pyp.QuestionWidget import *
+from pyp.ResultWidget import *
 
 
 class MenuQuestion(QMainWindow, Ui_Menu_questions):

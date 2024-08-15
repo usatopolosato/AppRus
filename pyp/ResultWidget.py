@@ -4,9 +4,9 @@ from PyQt5.QtWidgets import QMessageBox, QTableWidgetItem, QAbstractItemView
 from PyQt5.QtGui import QColor
 from PyQt5 import QtCore, QtGui
 from Designs.design_result import *
-from py.queries_db import make_up_exem
-from py.queries_db import html_quastion
-from py.add_db import new_statistic
+from pyp.queries_db import make_up_exem
+from pyp.queries_db import html_quastion
+from pyp.add_db import new_statistic
 
 
 class Result(QMainWindow, Ui_resultWidget):

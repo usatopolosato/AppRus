@@ -1,4 +1,4 @@
-from py.queries_db import *
+from pyp.queries_db import *
 
 
 valid_characters = 'qwertyuiopasdfghjklzxcvbnm1234567890@.'

@@ -1,6 +1,6 @@
-from py.loading_window import *
-from py.authorization import *
-from py.MainWindow import MainWindow
+from pyp.loading_window import *
+from pyp.authorization import *
+from pyp.MainWindow import MainWindow
 from PyQt5.QtWidgets import QApplication
 
 

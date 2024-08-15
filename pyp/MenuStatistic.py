@@ -2,17 +2,21 @@ import sys
 from PyQt5.QtWidgets import QWidget, QApplication
 from PyQt5 import QtCore, QtGui
 from Designs.design_MainWindow import *
-from py.queries_db import *
-from py.TheoryWidget import Theory
-from Designs.design_MenuTheory import Ui_MenuTheory
+from pyp.queries_db import *
+from pyp.DiagramWidget import Diagram
+from Designs.design_MenuStatistic import Ui_MenuStatistic
 
 
-class MenuTheory(QWidget, Ui_MenuTheory):
-    def __init__(self, desktop, main_window):
+class MenuStatistic(QWidget, Ui_MenuStatistic):
+    def __init__(self, desktop, login, password, main_window):
         super().__init__()
         self.setupUi(self)
 
         self.desktop = desktop
+
+        # Сохраняем нужную информацию о пользователе.
+        self.login = login
+        self.password = password
 
         # Выравнивание по центру.
         x = (desktop.width() - self.width()) // 2
@@ -25,7 +29,7 @@ class MenuTheory(QWidget, Ui_MenuTheory):
 
         # Подключение функций к кнопкам
         for i in range(1, 27):
-            eval(f'''self.theoryButton{i}.clicked.connect(self.show_theory)''')
+            eval(f'''self.statisticButton{i}.clicked.connect(self.show_diagram)''')
 
         # Сохранение навигационной формы для последующего показа
         self.main_window = main_window
@@ -34,21 +38,16 @@ class MenuTheory(QWidget, Ui_MenuTheory):
         self.exitButton.clicked.connect(self.exit)
         self.exitButton.setIcon(QtGui.QIcon('icon/exit_to_app.png'))
 
-        # Установка изображения. Корректируем его размеры.
-        image = QtGui.QPixmap('image/EGA.png')
-        height = self.image.height()
-        width = self.image.width()
-        self.image.setPixmap(image.scaled(width, height, QtCore.Qt.KeepAspectRatio))
-
         # Служебные инструмены, чтобы убрать встроенные рамки формы.
         self.setWindowFlag(QtCore.Qt.FramelessWindowHint)
         self.setAttribute(QtCore.Qt.WA_TranslucentBackground)
         self.setAttribute(QtCore.Qt.WA_DeleteOnClose)
 
-    # Показ теории по выбранному вопросу.
-    def show_theory(self):
-        self.theory_widget = Theory(self.desktop, self.sender().text(), self)
-        self.theory_widget.show()
+    # Функция для показа статистики по выбранному вопросу.
+    def show_diagram(self):
+        self.diagram_widget = Diagram(self.desktop, self.login, self.password,
+                                      int(self.sender().text().split()[1]), self)
+        self.diagram_widget.show()
         self.hide()
 
     # Реагируем на нажатие ESC, чтобы выполнить выход из формы
